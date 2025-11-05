@@ -1,0 +1,171 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+  background-color: black;
+  color: black;
+  
+}
+
+.navbar{
+  background-color: black;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  color:#fff;
+  padding: 1rem 0;
+  font-weight:bold;
+}
+
+.navbar .logo{
+  font-size: 1.5rem;
+  font-weight:bold; 
+  color: orangered;
+  
+}
+
+.nav-links{
+  display:flex;
+  list-style:none;
+  gap: 1rem;
+}
+
+.nav-links a{
+  text-decoration:none;
+  color:#fff;
+}
+
+.banner{
+  display:flex;
+  height:100%;
+  position:relative;
+  align-items:center;
+  justify-content:flex-start;
+  padding:4rem;
+  overflow:hidden;
+  color:#fff;
+  
+}
+
+.bg-image{
+  position:absolute;
+  top: 0 left 0 ;
+  width: 100%; height: 70%;
+  background: url('./e904f41b665496ed42a9d3e6c48841e0.jpg') no-repeat center center/cover;
+  z-index: 0;
+  filter: brightness(0.6);
+}
+
+.banner-text{
+  position:relative;
+  z-index:1;
+  padding: 50px 0 0 30px;
+
+  
+}
+
+.banner-text h1{
+  font-size:4rem;
+  color: orangered;
+  font-weight:bold;
+  
+  
+}
+
+.banner-text p{
+  font-size: 2rem;
+  margin: 0.5rem 0 1rem;
+  color: #fff;
+  
+}
+
+.banner-btn{
+  background-color: #111;
+  color: orangered;
+  text-decoration:none;
+  border-radius: 8px;
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  font-weight:bold;
+  margin-top: 50px;
+  
+}
+
+.product-section{
+  padding:3rem 2rem;
+  margin-top:30px;
+  padding-top:160px;
+  
+}
+
+.section-tittle{
+  color: white;
+  margin-bottom: 20px;
+  text-align:center;
+  font-weight:bold;
+}
+
+.product-grid{
+  display:flex;
+  justify-content:center;
+  gap:2rem;
+  flex-wrap:wrap;
+
+}
+
+.product-card{
+  background-color: #fafafa;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.8);
+  padding: 1rem;
+  border-radius: 10px;
+  text-align:center;
+  width: 100%;
+  height: 100%;
+}
+
+.product-card img{
+  width: 60%;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+.product-card h3{
+  margin: 0.8rem 0 0.8rem;
+  
+}
+
+.product-card p{
+  color: cadetblue;
+  margin-bottom: 1rem;
+  font-weight:bold;
+}
+
+.product-card button{
+  background-color: darkred;
+  color: #fff;
+  border:none;
+  padding: 0.6rem 1rem;
+  font-weight:bold;
+  border-radius: 5px;
+  cursor:pointer;
+}
+
+.footer{
+  background-color: black;
+  color: cadetblue;
+  text-align:center;
+  padding: 2rem;
+}
+
+.footer .socials a{
+  color: red;
+  margin: 0 0.5;
+  text-decoration:none;
+  font-weight:bold;
+}
+
+
